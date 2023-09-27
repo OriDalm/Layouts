@@ -1,0 +1,10 @@
+@import './setup/variables';
+@import './setup/functions';
+@import './setup/mixin';
+@import './setup/typography';
+
+@import './base/base';
+@import './base/layout';
+
+@import './cmps/AppHeader';
+@import './cmps/FindTalent';

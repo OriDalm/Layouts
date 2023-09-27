@@ -1,0 +1,39 @@
+.app-header {
+  @include layoutGTC();
+  background-color: $clr1;
+  grid-column: 1 / 4;
+  height: 120px;
+  grid-template-rows: 135px 580px 135px;
+
+  & a {
+    color: $clr2;
+  }
+  .links-container {
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    font-size: rem(18px);
+  }
+
+  .logo {
+    margin-inline-end: rem(80px);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: rem(40px);
+    align-items: center;
+  }
+
+  .contact-us {
+    display: block;
+    height: rem(48px);
+    width: rem(153px);
+    background: none;
+    border: $clr2 2px solid;
+    border-radius: rem(24px);
+    color: $clr2;
+    justify-self: end;
+    margin-inline-start: rem(550px);
+  }
+}
