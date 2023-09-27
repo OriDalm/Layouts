@@ -4,6 +4,7 @@
   grid-column: 1 / 4;
   height: 120px;
   grid-template-rows: 135px 580px 135px;
+  width: 100vw;
 
   & a {
     color: $clr2;
